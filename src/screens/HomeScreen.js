@@ -9,7 +9,8 @@ const HomeScreen = () => {
             Consumo de apis externas
         </Text>
         <Text style={styles.descripcion}>
-            Ejercicio clase 3 lennyn vides <Text style={styles.negrita}>FETCH</Text> nativa de JavaScript y <Text style={styles.negrita}>AXIOS</Text> que es una biblioteca de JavaScript utilizada para hacer solicitudes HTTP
+            Ejercicio clase 3 Oscar Ramirez
+             <Text style={styles.negrita}>FETCH</Text> nativa de JavaScript y <Text style={styles.negrita}>AXIOS</Text> que es una biblioteca de JavaScript utilizada para hacer solicitudes HTTP
         </Text>
         </View>
      );

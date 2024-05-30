@@ -4,6 +4,7 @@ import { View, Text, FlatList, Image, StyleSheet, ActivityIndicator } from 'reac
 export default function ItemListScreen() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
+  // const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     fetchItems();
@@ -50,6 +51,7 @@ export default function ItemListScreen() {
       )}
     </View>
   );
+  //  return (
 }
 
 const styles = StyleSheet.create({
@@ -90,6 +92,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     color: '#666666',
   },
+  // Estilos para el componente ActivityIndicator
   loading: {
     marginTop: 20,
   },

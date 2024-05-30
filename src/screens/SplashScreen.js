@@ -6,6 +6,7 @@ export default function SplashScreen() {
   const [counter, setCounter] = useState(3);
   const rotateValue = useRef(new Animated.Value(0)).current;
 
+  // Contador para la animación de carga
   useEffect(() => {
     const timer = setInterval(() => {
       setCounter(prevCounter => prevCounter - 1);
@@ -30,6 +31,7 @@ export default function SplashScreen() {
     outputRange: ['0deg', '360deg'],
   });
 
+  // Muestra el contador y la animación de carga
   return (
     <View  style={styles.container}>
       <Text style={styles.title}>

@@ -52,7 +52,7 @@ export default function PokemonList() {
         />
         <Button
           title="Buscar"
-          onPress={fetchData}
+          onPress={fetchData}//Aqui se llama la funcion fetchData
           color="#f00"
         />
       </View>
@@ -71,6 +71,7 @@ export default function PokemonList() {
   );
 }
 
+/// Estilos para los componentes.
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -86,6 +87,7 @@ const styles = StyleSheet.create({
     color: '#00796b',
     textAlign: 'center',
   },
+  /// Estilos para los componentes.
   searchContainer: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -100,6 +102,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
     width: '30%',
   },
+  // Estilos para los componentes.
   searchInput: {
     height: 40,
     borderColor: '#00796b',

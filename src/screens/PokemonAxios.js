@@ -10,9 +10,11 @@ export default function PokemonAxios() {
   const [nPokemon, setNPokemon] = useState(25);
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+//////const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     getPokemon(nPokemon);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getPokemon = async (nPokemon) => {
